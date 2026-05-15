@@ -6,8 +6,7 @@
 * low sugar oatmeal
 * tea
 * Amy's soups
-* maple syrup
-* milk
+* oat milk
 * shredded wheat cereal
 * bananas
 * waffles
@@ -15,5 +14,9 @@
 
 ## Trader Joes
 * raisins 
+* Freeze dried fruit
+	* Strawberries 
+	* Raspberry 
+	* Mango
 * peanut butter
 * frozen fruit (pineapple)
