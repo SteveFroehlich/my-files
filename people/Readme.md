@@ -1,5 +1,11 @@
 # Relationship management system
 
+This system answers the questions:
+* Who are the important people in my life?
+* When did I last interact with them?
+* Is there anything I need to follow up on?
+* What context do I want to remember before seeing them again?
+* What sensitive context needs to be protected separately?
 
 ## Schema
 ```
