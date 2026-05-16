@@ -3,10 +3,10 @@ Personal information system for humans and machines.
 
 ## Topics
 
-- [Agent-setup](Agent-setup/)
+- [agent-setup](agent-setup/)
 - [Grainger](Grainger/)
-- [Growth](Growth/)
-- [Logs](Logs/)
-- [Travel](Travel/)
+- [growth](growth/)
+- [logs](logs/)
+- [travel](travel/)
 - [health](health/)
 - [people](people/)
