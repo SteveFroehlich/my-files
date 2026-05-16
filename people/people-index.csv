@@ -1,3 +1,3 @@
 person_id,name,category,priority,status,last_contacted,next_follow_up,target_frequency,snapshot_path,has_sensitive_snapshot,tags
-p001,Jane Doe,friend,A,in_circle,2026-05-15,2026-06-15,monthly,people/jane-doe/jane-doe-snapshot.md,true,"friend,personal"
-p002,Alex Smith,professional,B,engaged,2026-05-20,2026-08-20,quarterly,people/alex-smith/alex-smith-snapshot.md,false,"career,engineering"
+p001,Kait Sweetman,professional,,engaged,2026-03-06,none,as-needed,people/kait-sweetman/kait-sweetman-snapshot.md,true,"volunteer,nonprofit,pipeline"
+p002,Jane Doe,friend,A,in_circle,2026-05-15,2026-06-15,monthly,people/jane-doe/jane-doe-snapshot.md,true,"friend,personal"
