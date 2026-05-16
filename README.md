@@ -9,3 +9,4 @@ Personal information system for humans and machines.
 - [Logs](Logs/)
 - [Travel](Travel/)
 - [health](health/)
+- [people](people/)
