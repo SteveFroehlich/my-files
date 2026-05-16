@@ -8,7 +8,11 @@ A 30 minute audio clip will give best cloning results
 ---
 # Locked in Architecture
 
-Use a **two-machine split architecture**:
+The main Mac laptop my act as a driver. There should be two users
+1. standard user - has limited privledges - for running things
+2. admin user - has sensitive files but encrypted using FileVault
+
+Server architecture uses a **two-machine split architecture**:
 
 1. **Mac mini** = interactive development / control plane
 2. **Linux mini PC** = always-on infrastructure / compute plane
