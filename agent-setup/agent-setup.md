@@ -112,3 +112,26 @@ Rejected because it:
 - Reduces separation of concerns
 - Limits parallelism
 - Makes the system less flexible over time
+
+
+
+## voice
+
+```
+[ Your Mic / Speaker ] 
+       │  ▲
+       ▼  │ (Audio Streams)
+┌────────────────────────────────────────┐
+│      LOCAL AUDIO PIPELINE LAYER        │
+│  - STT: Deepgram / Whisper Local       │
+│  - TTS: ElevenLabs / OpenAI            │
+└────────────────────────────────────────┘
+       │  ▲
+       ▼  │ (Pure Text Prompts & Outputs)
+┌────────────────────────────────────────┐
+│     SWAPPABLE AGENT ROUTER SWITCH      │
+│  [ ] Cursor CLI                        │
+│  [ ] Claude Code                       │
+│  [ ] OpenClaw Gateway                  │
+└────────────────────────────────────────┘
+```
