@@ -6,14 +6,14 @@ Personal knowledge base (Markdown + CSV) for relationships, learning, health, tr
 
 ## Topics
 
-| Topic | What goes here |
-|-------|----------------|
-| [people/](people/) | Relationships: snapshots, interactions, weekly triage index |
-| [growth/](growth/) | Learning: scrapes, books, communication reference |
-| [logs/](logs/) | Journals and reviews |
-| [health/](health/) | Health notes, grocery, medical history |
-| [travel/](travel/) | Travel planning |
-| [Grainger/](Grainger/) | Work-related notes |
-| [agent-setup/](agent-setup/) | Agent tooling and home-lab infrastructure plans |
+| Topic                        | What goes here                                              |
+| ---------------------------- | ----------------------------------------------------------- |
+| [people/](people/)           | Relationships: snapshots, interactions, weekly triage index |
+| [growth/](growth/)           | Learning: scrapes, books, content, communication reference  |
+| [logs/](logs/)               | Journals and reviews                                        |
+| [health/](health/)           | Health notes, grocery, medical history                      |
+| [travel/](travel/)           | Travel planning                                             |
+| [Grainger/](Grainger/)       | Work-related notes                                          |
+| [agent-setup/](agent-setup/) | Agent tooling and home-lab infrastructure plans             |
 
 Sensitive notes live in `private-data/` (gitignored, local only).
