@@ -135,3 +135,13 @@ Rejected because it:
 │  [ ] OpenClaw Gateway                  │
 └────────────────────────────────────────┘
 ```
+
+### 🧱 The 100% Local Voice Stack
+
+To avoid dependencies on web browsers or remote cloud WebRTC infrastructure, orchestrate your local machine using three specific open-source tools:
+
+Speech-to-Text (STT): Faster-Whisper. This is a highly optimized CTranslate2 implementation of OpenAI’s Whisper model. It runs locally on your machine's CPU or GPU, delivering sub-100ms transcription latency.
+
+Audio In/Out Pipeline: Pipecat (Local Runner). An open-source Python framework designed for real-time voice orchestration. It handles voice activity detection (VAD), meaning it knows exactly when you stop talking and when to mute your speakers if you interrupt the agent.
+
+Text-to-Speech (TTS): Piper. A blazing-fast local neural text-to-speech system that can easily match the speed of your terminal output.
