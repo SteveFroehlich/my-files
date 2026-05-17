@@ -1,3 +1,4 @@
+
 # Relationship management system
 
 This system answers the questions:
@@ -28,6 +29,8 @@ people/
 ```
 
 ## Descriptions
+`people-scrapes.md` holding area for random people until they can be added or discarded.
+
 `people-index.csv` answers the question what relationship should I invest energy in for the coming week?
 
 Each person gets a directory.

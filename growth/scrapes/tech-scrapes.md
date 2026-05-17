@@ -23,8 +23,20 @@ Other options:
 Cursor Agentic SDK
 https://github.com/cursor/cookbook
 
+#### voice 
 Voice AI open source from Microsoft 
 https://github.com/microsoft/VibeVoice
+
+11 labs - voice agents
+
+Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
+
+
+Agentic AI Foundation 
+https://aaif.io/
+
+Opencode - open source Claude code
+https://github.com/anomalyco/opencode
 
 Understand universal commerce protocol 
 https://www.newsfilecorp.com/release/294133/Amazon-Meta-Microsoft-Salesforce-and-Stripe-Join-the-Universal-Commerce-Protocol-Tech-Council
@@ -123,8 +135,7 @@ Symphony turns project work into isolated, autonomous implementation runs, allow
 https://github.com/openai/symphony
 
 Paperclip
-
-Open-source orchestration for zero-human companies 
+*Open-source orchestration for zero-human companies* 
 https://github.com/paperclipai/paperclip
 
 An agentic skills framework & software development methodology that works. 
@@ -154,9 +165,6 @@ Explore ai voice
 open speakers. Claims to be open but can’t find proof
 https://openhome.com/ 
 
-11 labs - voice agents
-
-Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
 
 Agent kanban
 https://www.appsoftware.com/blog/introducing-vs-code-agent-kanban-task-management-for-the-ai-assisted-developer
