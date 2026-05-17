@@ -1,12 +1,19 @@
-# Information system 
-Personal information system for humans and machines.
+# Information system
+
+Personal knowledge base (Markdown + CSV) for relationships, learning, health, travel, work notes, and logs.
+
+**For AI agents:** see [AGENTS.md](AGENTS.md).
 
 ## Topics
 
-- [agent-setup](agent-setup/)
-- [Grainger](Grainger/)
-- [growth](growth/)
-- [logs](logs/)
-- [travel](travel/)
-- [health](health/)
-- [people](people/)
+| Topic | What goes here |
+|-------|----------------|
+| [people/](people/) | Relationships: snapshots, interactions, weekly triage index |
+| [growth/](growth/) | Learning: scrapes, books, communication reference |
+| [logs/](logs/) | Journals and reviews |
+| [health/](health/) | Health notes, grocery, medical history |
+| [travel/](travel/) | Travel planning |
+| [Grainger/](Grainger/) | Work-related notes |
+| [agent-setup/](agent-setup/) | Agent tooling and home-lab infrastructure plans |
+
+Sensitive notes live in `private-data/` (gitignored, local only).
