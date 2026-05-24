@@ -7,7 +7,7 @@ Copper atom in statue of Winston Churchill. The theory of physics can predict th
 Another example is the domino example.
 
 ## how to think about theories
-No theory is ever true, it is the our current best misconception.
+No theory is ever true, it is our current best misconception.
 
 ## Emergent phenomena
 Certain phenomena have explanations at higher levels than others. For example the laws of thermodynamics only make sense at the level of groups of atoms and not at individual particals.

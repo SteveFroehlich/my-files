@@ -4,6 +4,31 @@ add some content
 
 ---
 
+Quote:
+You can outsource your thinking (to AI)
+But you can’t outsource your understanding 
+
+We aren’t constrained by our thinking.
+We are constrained by our understanding and the quality of our judgement 
+
+---
+
+The influence of AI on the job market 
+* concept of better problems
+* Problems are infinite. Standards raise
+* You can’t solve the same problem you did before AI
+* AI is a force multiplier If you ignore it your performance will probably be lower than those who don’t. 
+
+So what does this mean fo the individual. 
+* learn how to use AI
+* Find interesting problems you can solve (especially ones AI doesn’t solve cheaper/easier on its own)
+
+Use US labor plot along side maslows hierarchy to show how the problems we solve are getting better.
+Maslow: y-axis —> the hierarchy topics
+X-axis —> same time as a16z plot
+
+---
+
 Code should become a build artifact.
 
 Read articles that git is broken in the AI era.
