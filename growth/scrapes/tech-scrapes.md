@@ -31,6 +31,9 @@ https://github.com/microsoft/VibeVoice
 
 Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
 
+Google I/O conference announcements 
+Ask AI to read and tl;dr each one
+https://techcrunch.com/tag/google-io/
 
 Agentic AI Foundation 
 https://aaif.io/
@@ -92,6 +95,7 @@ This open standard from Anthropic claims to be a standard for domain expertise, 
 
 Ai native development
 
+In form-understanding
 AI-native architecture:
 https://every.to/guides/agent-native 
 
