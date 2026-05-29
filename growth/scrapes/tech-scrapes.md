@@ -145,6 +145,9 @@ https://github.com/paperclipai/paperclip
 An agentic skills framework & software development methodology that works. 
 https://github.com/obra/superpowers
 
+Understanding next level security 
+https://buffrr.dev/blog/are-we-self-sovereign-pki-yet/
+
 Dashboards as code. Maybe steal approach for roadmap PPT from code
 https://github.com/bruin-data/dac
 

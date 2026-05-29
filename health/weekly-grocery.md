@@ -20,3 +20,6 @@
 	* Mango
 * peanut butter
 * frozen fruit (pineapple)
+
+## TBD
+* organic sweet potato 
