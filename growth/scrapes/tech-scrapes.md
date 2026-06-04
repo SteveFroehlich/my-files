@@ -10,6 +10,9 @@ Talks to be sorted:
 
 ---
 
+Mistral AI strategy. Aligned with mine. Eg specialized models.
+https://koenvangilst.nl/lab/mistral-ai-now-summit
+
 OpenClaw
 https://openclaw.ai/
 
@@ -23,7 +26,8 @@ Other options:
 Cursor Agentic SDK
 https://github.com/cursor/cookbook
 
-#### voice 
+## voice 
+
 Voice AI open source from Microsoft 
 https://github.com/microsoft/VibeVoice
 
@@ -31,9 +35,22 @@ https://github.com/microsoft/VibeVoice
 
 Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
 
+---
+
+## Generative UI
+
 Google I/O conference announcements 
 Ask AI to read and tl;dr each one
 https://techcrunch.com/tag/google-io/
+
+---
+
+## Next gen search
+
+Perplexity agentic search
+https://research.perplexity.ai/articles/rethinking-search-as-code-generation
+
+---
 
 Agentic AI Foundation 
 https://aaif.io/
@@ -84,6 +101,9 @@ https://www.reuters.com/business/finance/anthropic-deepens-finance-push-with-10-
 
 Stack overflow for agents (rift on moltbook)
 https://github.com/andrewyng/context-hub
+
+CLI instead of MCP. OpenClaw creator has project for this.
+https://www.quandri.io/engineering-blog/mcp-is-dead
 
 MCP - context and tooling.
 https://modelcontextprotocol.io/docs/getting-started/intro
@@ -138,9 +158,31 @@ OpenAI symphony:
 Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. 
 https://github.com/openai/symphony
 
+## AI native orgs
+
 Paperclip
 *Open-source orchestration for zero-human companies* 
 https://github.com/paperclipai/paperclip
+
+Dashboards as code. Maybe steal approach for roadmap PPT from code
+https://github.com/bruin-data/dac
+
+
+Company as code post
+https://blog.42futures.com/p/company-as-code
+
+Fully atononmous company
+https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo
+
+Gitlab reorg announcement 
+https://about.gitlab.com/blog/gitlab-act-2/
+
+
+Open source organizational search 
+https://github.com/getomnico/omni
+
+
+---
 
 An agentic skills framework & software development methodology that works. 
 https://github.com/obra/superpowers
@@ -148,8 +190,6 @@ https://github.com/obra/superpowers
 Understanding next level security 
 https://buffrr.dev/blog/are-we-self-sovereign-pki-yet/
 
-Dashboards as code. Maybe steal approach for roadmap PPT from code
-https://github.com/bruin-data/dac
 
 Next gen developer platform 
 https://entire.io/blog/hello-entire-world/
@@ -179,11 +219,7 @@ https://www.appsoftware.com/blog/introducing-vs-code-agent-kanban-task-managemen
 macOS agent sandboxing
 https://agent-safehouse.dev/
 
-Company as code post
-https://blog.42futures.com/p/company-as-code
 
-Fully atononmous company
-https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo
 
 Why sports teams connect to ppl
 
@@ -224,8 +260,6 @@ Markdown viewer very close to what I want
 https://github.com/taf2/mdvi
 Jekkl engine GitHub issues
 
-Open source organizational search 
-https://github.com/getomnico/omni
 
 Open source TikTok 
 https://joinloops.org/ 
@@ -259,8 +293,6 @@ https://www.niche-museums.com/?next=104
 Open AI privacy LLM for finding PII
 https://openai.com/index/introducing-openai-privacy-filter/
 
-Gitlab reorg announcement 
-https://about.gitlab.com/blog/gitlab-act-2/
 
 **Trending repo**s. Week of 5/14.
 

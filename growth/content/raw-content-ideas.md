@@ -47,7 +47,7 @@ AI can do more faster. So humans will move from doing the work to giving agents 
 
 This transition already happened in trading (stocks, futures, options, etc) more than a decade ago. Here how it played out:
 
-Traders use to sit in front of a web UI and do what is called point and clock trading. 
+Traders use to sit in front of a web UI and do what is called point and click trading. 
 
 That logic moved to automated trading strategies that executed trades on the traders behalf in fractions of a second. Now milliseconds 
 
