@@ -28,12 +28,20 @@ https://github.com/cursor/cookbook
 
 ## voice 
 
+Real time voice chat?
+https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
+
 Voice AI open source from Microsoft 
 https://github.com/microsoft/VibeVoice
 
 11 labs - voice agents
 
 Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
+
+Open source voice clone
+https://github.com/OpenBMB/VoxCPM
+
+
 
 ---
 
@@ -43,12 +51,20 @@ Google I/O conference announcements
 Ask AI to read and tl;dr each one
 https://techcrunch.com/tag/google-io/
 
+Sandbox for the bring your own agent
+https://github.com/tastyeffectco/sandboxes
+
+
 ---
 
 ## Next gen search
 
 Perplexity agentic search
 https://research.perplexity.ai/articles/rethinking-search-as-code-generation
+
+Open source speech models
+https://github.com/OpenMOSS/MOSS-TTS
+
 
 ---
 
@@ -311,3 +327,9 @@ censorship resistant proxy. there was a cool git repo but looked like it tied to
 
 Ai orchestration for Claude code
 https://github.com/ruvnet/ruflo
+
+## security 
+
+Claude cyber security skills 
+https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+
