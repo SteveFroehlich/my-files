@@ -37,6 +37,14 @@ Each person gets a directory.
 
 `interactions` directory holds a file for each interaction.
 
+## Scripts
+
+CLI helpers in `scripts/` (flags only; missing required flags prints usage). All support `--dry-run`.
+
+- **`add-person.py`** — Create person folder, snapshot, and CSV row. Requires `--name`, `--category`.
+- **`delete-person.py`** — Remove CSV row and on-disk folder. Requires `--person-id`; `--csv-only` keeps files.
+- **`add-interaction.py`** — Not implemented; create interaction files from `person-interaction-template.md` and sync snapshot + CSV manually.
+
 ## Enums
 
 #### interaction .md file
