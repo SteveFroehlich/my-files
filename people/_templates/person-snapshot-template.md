@@ -1,6 +1,8 @@
 ---
 person_id: p001
 name: Jane Doe
+email: placeholder
+phone: 000-000-0000
 category: friend
 priority: A
 preferred_channel: text
