@@ -9,7 +9,7 @@ Personal knowledge base (Markdown + CSV) for relationships, learning, health, tr
 | Topic                        | What goes here                                              |
 | ---------------------------- | ----------------------------------------------------------- |
 | [people/](people/)           | Relationships: snapshots, interactions, weekly triage index |
-| [growth/](growth/)           | Learning: scrapes, books, content (short/long/completed), topics-reference, form-understanding, sources |
+| [growth/](growth/)           | Learning: scrapes, books, content, topics-reference, form-understanding, sources |
 | [logs/](logs/)               | Journals and reviews                                        |
 | [health/](health/)           | Health notes, grocery, medical history                      |
 | [travel/](travel/)           | Travel planning                                             |
@@ -18,3 +18,12 @@ Personal knowledge base (Markdown + CSV) for relationships, learning, health, tr
 | [agent-setup/](agent-setup/) | Agent tooling and home-lab infrastructure plans             |
 
 Sensitive notes live in `private-data/` (gitignored, local only).
+
+## Repo size
+
+Non-hidden content (excludes `.git`, `.obsidian`, and `private-data/`).
+
+| Measure | Value  |
+| ------- | -----: |
+| Size    | 1.8M   |
+| Lines   | 3,660  |
