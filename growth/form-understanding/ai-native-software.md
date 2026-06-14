@@ -17,6 +17,15 @@ Validate the claim that agents thrive on a local filesystem rather than a databa
 - The Context: Add a few Markdown files and JSON files representing an arbitrary user state (e.g., a simple task list or a personal journal).
 - The Loop: Write a basic `while(true)` loop in code that feeds the directory structure and file contents into the LLM system prompt on every turn.
 
+### Build infrastructure to get agents context
+Information needs to be text files on a file system.
+- architecture - mermaid
+- Work - Jira json
+- Docs - markdown files
+
+All this needs to be accessible by multiple people on the team. How?
+- git + their own file system + docker for software tooling setup. 
+
 ## 🛠️ 2. Build Atomic Tools (Granularity Test)
 
 Test if tiny, primitive tools outperform complex, hardcoded workflows.

@@ -1,6 +1,5 @@
 # Weekly grocery
 
-
 ## Target
 
 * low sugar oatmeal
@@ -10,6 +9,8 @@
 * shredded wheat cereal
 * bananas
 * waffles
+* Spindrift 
+* Kombucha 
 
 
 ## Trader Joes
@@ -23,3 +24,12 @@
 
 ## TBD
 * organic sweet potato 
+
+# Monthly 
+
+- rice
+- Quinoa 
+- Beans (black/pinto/garbanzo)
+- 64 oz distilled white vinegar 
+- Mouth wash
+- Gallon distill water 

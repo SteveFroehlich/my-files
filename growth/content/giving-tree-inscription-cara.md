@@ -1,0 +1,25 @@
+# Giving tree inscription
+
+## Theme
+
+Deep relationships are not found. They are built.
+Two lives growing together over time.
+
+### quote
+"Deep relationships are not found. They are built. And the building blocks are countless small acts that often feel ordinary in the moment."
+
+## Content
+
+I've always loved this book. The older I get the more I appreciate it.
+
+climbing trees can give a sense of wonder
+
+Some of life's greatest treasures are built so gradually that we don't realize what we're creating until years later.
+
+When I was young I liked it because I liked to climb trees
+When I was a teen I 
+
+
+--closing--
+Remember your parents would give you the world. But to them you are the world.
+

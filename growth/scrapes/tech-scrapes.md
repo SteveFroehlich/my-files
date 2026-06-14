@@ -13,6 +13,8 @@ Talks to be sorted:
 Mistral AI strategy. Aligned with mine. Eg specialized models.
 https://koenvangilst.nl/lab/mistral-ai-now-summit
 
+## AI agents
+
 OpenClaw
 https://openclaw.ai/
 
@@ -25,6 +27,19 @@ Other options:
 
 Cursor Agentic SDK
 https://github.com/cursor/cookbook
+
+Hermes personal ai assistant 
+https://hermes-agent.nousresearch.com/
+https://hermes-agent.org/
+
+Try anthropic managed agents
+https://claude.com/blog/claude-managed-agents
+
+NVIDIA openclaw runner
+https://github.com/NVIDIA/NemoClaw
+
+
+---
 
 ## voice 
 
@@ -41,7 +56,15 @@ Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
 Open source voice clone
 https://github.com/OpenBMB/VoxCPM
 
+Try local open source wisprflow
+https://github.com/matthartman/ghost-pepper
 
+open speakers. Claims to be open but can’t find proof
+https://openhome.com/ 
+
+Openhome.org seems to be different 
+* https://github.com/openhome/
+* http://openhome.org/#
 
 ---
 
@@ -68,68 +91,26 @@ https://github.com/OpenMOSS/MOSS-TTS
 
 ---
 
+## Agentic applications and engineering 
+
+Apache blur framework
+https://burr.apache.org/
+
 Agentic AI Foundation 
 https://aaif.io/
 
 Opencode - open source Claude code
 https://github.com/anomalyco/opencode
 
-Understand universal commerce protocol 
-https://www.newsfilecorp.com/release/294133/Amazon-Meta-Microsoft-Salesforce-and-Stripe-Join-the-Universal-Commerce-Protocol-Tech-Council
-
 Gas town 1.0.0. Gas city and beads!!
 https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec
 
 https://github.com/gastownhall/beads  Dolt is cool too.
 
-Hermes personal ai assistant 
-https://hermes-agent.nousresearch.com/
-
-Spec driven development that claims to better than speckit by GitHub 
-https://github.com/gsd-build/get-shit-done
-
-Understand the Unified project and MDX adopted by Mintlify docs
-- https://unifiedjs.com/
-- MDX
-    - https://readme.com/resources/mdx-cheat-sheet
-    - https://github.com/mdx-js/mdx/blob/main/docs/docs/what-is-mdx.mdx
-
-Try anthropic managed agents
-https://claude.com/blog/claude-managed-agents
-
-METR understanding frontier models and AI progress 
-https://metr.org/
-
-Local AI models. Can be enough for many tests
-https://unix.foo/posts/local-ai-needs-to-be-norm/
-
-Memory for agents based on human memory 
-https://github.com/sachitrafa/YourMemory
-
-Klaus, openclaw in a VM
-https://klausai.com/landing-klaus
-
-NVIDIA openclaw runner
-https://github.com/NVIDIA/NemoClaw
-
-Financial Agents
-https://www.reuters.com/business/finance/anthropic-deepens-finance-push-with-10-new-ai-agents-banks-insurers-2026-05-05/
-
-Stack overflow for agents (rift on moltbook)
-https://github.com/andrewyng/context-hub
-
-CLI instead of MCP. OpenClaw creator has project for this.
-https://www.quandri.io/engineering-blog/mcp-is-dead
-
-MCP - context and tooling.
-https://modelcontextprotocol.io/docs/getting-started/intro
-
 Agent skills standard
 https://agentskills.io/home 
 
 This open standard from Anthropic claims to be a standard for domain expertise, repeatability and interoperability. Seems a compliment to MCP.
-
-Ai native development
 
 In form-understanding
 AI-native architecture:
@@ -150,6 +131,48 @@ https://github.com/nibzard/awesome-agentic-patterns
 Agentic engineering levels
 https://www.bassimeledath.com/blog/levels-of-agentic-engineering
 
+When grep vs rag is needed 
+https://arxiv.org/abs/2605.15184
+
+---
+
+Understand universal commerce protocol 
+https://www.newsfilecorp.com/release/294133/Amazon-Meta-Microsoft-Salesforce-and-Stripe-Join-the-Universal-Commerce-Protocol-Tech-Council
+
+
+Spec driven development that claims to better than speckit by GitHub 
+https://github.com/gsd-build/get-shit-done
+
+Understand the Unified project and MDX adopted by Mintlify docs
+- https://unifiedjs.com/
+- MDX
+    - https://readme.com/resources/mdx-cheat-sheet
+    - https://github.com/mdx-js/mdx/blob/main/docs/docs/what-is-mdx.mdx
+
+METR understanding frontier models and AI progress 
+https://metr.org/
+
+Local AI models. Can be enough for many tests
+https://unix.foo/posts/local-ai-needs-to-be-norm/
+
+Memory for agents based on human memory 
+https://github.com/sachitrafa/YourMemory
+
+Klaus, openclaw in a VM
+https://klausai.com/landing-klaus
+
+Financial Agents
+https://www.reuters.com/business/finance/anthropic-deepens-finance-push-with-10-new-ai-agents-banks-insurers-2026-05-05/
+
+Stack overflow for agents (rift on moltbook)
+https://github.com/andrewyng/context-hub
+
+CLI instead of MCP. OpenClaw creator has project for this.
+https://www.quandri.io/engineering-blog/mcp-is-dead
+
+MCP - context and tooling.
+https://modelcontextprotocol.io/docs/getting-started/intro
+
 Deep seek and learning to use hugging face
 https://simonwillison.net/2026/Apr/24/deepseek-v4/
 
@@ -163,11 +186,8 @@ https://github.com/garrytan/gstack
 Explanation article
 https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder?utm_campaign=post&utm_medium=web
 
-Try local open source wisprflow
-https://github.com/matthartman/ghost-pepper
 
 Try code codeberg instead of github for privacy
-
 https://codeberg.org/
 
 OpenAI symphony:
@@ -223,18 +243,21 @@ Projection based art and interactive art
 
 **Lumoplay** is the company the library bought.
 
-Explore ai voice 
 
-open speakers. Claims to be open but can’t find proof
-https://openhome.com/ 
+## Technical optimization 
+
+Linear app architecture 
+https://performance.dev/how-is-linear-so-fast-a-technical-breakdown
+
+AI code gen quality framework 
+https://cognition.ai/blog/frontier-code
 
 
-Agent kanban
-https://www.appsoftware.com/blog/introducing-vs-code-agent-kanban-task-management-for-the-ai-assisted-developer
+---
+
 
 macOS agent sandboxing
 https://agent-safehouse.dev/
-
 
 
 Why sports teams connect to ppl
