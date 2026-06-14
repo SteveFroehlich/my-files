@@ -9,7 +9,7 @@ Personal knowledge base (Markdown + CSV) for relationships, learning, health, tr
 | Topic                        | What goes here                                              |
 | ---------------------------- | ----------------------------------------------------------- |
 | [people/](people/)           | Relationships: snapshots, interactions, weekly triage index |
-| [growth/](growth/)           | Learning: scrapes, books, content, growth topics, form-understanding, curated sources |
+| [growth/](growth/)           | Learning: scrapes, books, content (short/long/completed), topics-reference, form-understanding, sources |
 | [logs/](logs/)               | Journals and reviews                                        |
 | [health/](health/)           | Health notes, grocery, medical history                      |
 | [travel/](travel/)           | Travel planning                                             |
