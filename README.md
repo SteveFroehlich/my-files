@@ -1,6 +1,6 @@
 # Information system
 
-Personal knowledge base (Markdown + CSV) for relationships, learning, health, travel, work notes, and logs.
+Personal knowledge base (Markdown + CSV) for relationships, learning, health, travel, family, work notes, and logs.
 
 **For AI agents:** see [AGENTS.md](AGENTS.md).
 
@@ -9,10 +9,11 @@ Personal knowledge base (Markdown + CSV) for relationships, learning, health, tr
 | Topic                        | What goes here                                              |
 | ---------------------------- | ----------------------------------------------------------- |
 | [people/](people/)           | Relationships: snapshots, interactions, weekly triage index |
-| [growth/](growth/)           | Learning: scrapes, books, content, communication reference  |
+| [growth/](growth/)           | Learning: scrapes, books, content, growth topics, form-understanding, curated sources |
 | [logs/](logs/)               | Journals and reviews                                        |
 | [health/](health/)           | Health notes, grocery, medical history                      |
 | [travel/](travel/)           | Travel planning                                             |
+| [little-humans/](little-humans/) | Parenting notes and kids' activities                    |
 | [Grainger/](Grainger/)       | Work-related notes                                          |
 | [agent-setup/](agent-setup/) | Agent tooling and home-lab infrastructure plans             |
 
