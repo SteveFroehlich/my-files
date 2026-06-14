@@ -1,5 +1,6 @@
 
-Placeholder.
+# Definitions
+- **Semantic** -- The broader branch of linguistics concerned with the exact meaning of words, how their meanings change, and how they relate to other words
 
 ## Interesting alternatives
 * **Captivating** — holds your attention completely.
