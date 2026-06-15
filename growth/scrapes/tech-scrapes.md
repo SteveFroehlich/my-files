@@ -2,6 +2,11 @@
 
 Talks to be sorted:
 
+**2026-06-14**
+- https://paulgraham.com/earn.html
+- https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1
+
+Other:
 - E/acc movement - guillaume verdon
 - D/acc movement - vitalik
 - https://negroniventurestudios.com/2026/03/19/the-ladder-is-missing-rungs/

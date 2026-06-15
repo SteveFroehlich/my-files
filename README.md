@@ -21,9 +21,8 @@ Sensitive notes live in `private-data/` (gitignored, local only).
 
 ## Repo size
 
-Non-hidden content (excludes `.git`, `.obsidian`, and `private-data/`).
-
 | Measure | Value  |
 | ------- | -----: |
 | Size    | 1.8M   |
 | Lines   | 3,660  |
+Non-hidden content (excludes `.git`, `.obsidian`, and `private-data/`).

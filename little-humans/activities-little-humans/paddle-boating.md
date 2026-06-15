@@ -6,8 +6,8 @@ Locations:
 - hilcrest lake off Thomas in Arlington Heights
 - Lake arlington 
 - Lake Zurich 
-- Charley spot fox river (not on weekends)
 - Lake Michigan 
+- Charley spot fox river (not on weekends)
 - Crystal Lake
 - Busse woods
 - des plaines river

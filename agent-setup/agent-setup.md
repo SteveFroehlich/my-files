@@ -8,7 +8,7 @@ A 30 minute audio clip will give best cloning results
 ---
 # Locked in Architecture
 
-The main Mac laptop my act as a driver. There should be two users
+The main laptop (Mac) as a driver. There should be two users
 1. standard user - has limited privledges - for running things
 2. admin user - has sensitive files but encrypted using FileVault
 
