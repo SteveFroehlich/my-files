@@ -10,9 +10,11 @@ Two lives growing together over time.
 
 ## Delivered Content
 
-I've always loved this book. The older I get the more I appreciate it.
+I've always loved this book. The older I get, the more I appreciate it.
 
-I hope it inspires you to appreciate the trees in your life. And helps you realize the moments that seem smallest are often the ones that build the things we treasure most. And through never forget your parents would give you the world. But to them you are the world.
+I hope it inspires you to appreciate the trees in your life, and helps you realize the smallest moments are often the ones that build the things we treasure most.
+
+And never forget: your parents would give you the world. But to them, you are the world.
 
 ---
 
