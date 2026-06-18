@@ -141,6 +141,40 @@ https://arxiv.org/abs/2605.15184
 
 ---
 
+## security scrapes
+
+Keys not IPs
+https://www.iroh.computer/blog/v1
+
+
+Claude cyber security skills 
+https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+
+
+---
+
+## local models
+
+Local models are good now
+https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/
+
+---
+
+## version control
+
+Lore: binary first storage
+https://lore.org/
+
+
+---
+
+## AI for non profits 
+
+Claude fellow program. Could be source of talent
+https://www.anthropic.com/news/claude-corps
+
+---
+
 Understand universal commerce protocol 
 https://www.newsfilecorp.com/release/294133/Amazon-Meta-Microsoft-Salesforce-and-Stripe-Join-the-Universal-Commerce-Protocol-Tech-Council
 
@@ -356,8 +390,7 @@ censorship resistant proxy. there was a cool git repo but looked like it tied to
 Ai orchestration for Claude code
 https://github.com/ruvnet/ruflo
 
-## security 
+## internet primitives
 
-Claude cyber security skills 
-https://github.com/mukul975/Anthropic-Cybersecurity-Skills
-
+HTTP QUERY
+https://www.rfc-editor.org/info/rfc10008/

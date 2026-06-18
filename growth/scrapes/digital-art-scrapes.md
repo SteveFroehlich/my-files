@@ -1,4 +1,11 @@
 
+## Tools to explore
+Ideogram small open models
+https://ideogram.ai/
+CEO was on A16Z podcast Monday June 15.
+
+## Comfy UI
+Becoming the industry standard 
 
 ## 2026-05-14
 

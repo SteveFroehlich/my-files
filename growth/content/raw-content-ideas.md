@@ -4,6 +4,13 @@ add some content
 
 ---
 
+I am enjoying management more than originally thought I would. I’ve always loved teaching, both my parents were teachers. I kind of feel like a teacher that can give students jobs tailored directly for them (including compensation). Kind of wild.
+
+I also get to see the smile on their face when they are told they got promoted or when we make them an offer for a job they really want. 
+
+
+---
+
 Quote:
 You can outsource your thinking (to AI)
 But you can’t outsource your understanding 
