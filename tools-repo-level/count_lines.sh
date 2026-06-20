@@ -7,7 +7,7 @@ set -e
 #
 #  it runs from the directory the script is called from. See usage.
 #  usge: 
-#       scripts-repo-level/size_repo_lines.sh
+#       tools-repo-level/count_lines.sh
 #
 find . -type f -not -path '*/.*' -exec wc -l {} + | sort -n
 

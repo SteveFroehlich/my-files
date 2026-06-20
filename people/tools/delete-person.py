@@ -16,11 +16,11 @@ PROTECTED_PERSON_IDS = frozenset({"p002"})
 
 USAGE_EXAMPLE = """\
 Example:
-  python people/scripts/delete-person.py --person-id p004
+  python people/tools/delete-person.py --person-id p004
 
-  python people/scripts/delete-person.py --person-id p003 --dry-run
+  python people/tools/delete-person.py --person-id p003 --dry-run
 
-  python people/scripts/delete-person.py --person-id p001 --csv-only
+  python people/tools/delete-person.py --person-id p001 --csv-only
 
 Required:
   --person-id   person_id from people-index.csv (e.g. p001)

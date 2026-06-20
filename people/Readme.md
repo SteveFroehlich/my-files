@@ -37,9 +37,9 @@ Each person gets a directory.
 
 `interactions` directory holds a file for each interaction.
 
-## Scripts
+## Tools
 
-CLI helpers in `scripts/` (flags only; missing required flags prints usage). All support `--dry-run`.
+CLI helpers in `tools/` (flags only; missing required flags prints usage). All support `--dry-run`.
 
 - **`add-person.py`** — Create person folder, snapshot, and CSV row. Requires `--name`, `--category`.
 - **`delete-person.py`** — Remove CSV row and on-disk folder. Requires `--person-id`; `--csv-only` keeps files.

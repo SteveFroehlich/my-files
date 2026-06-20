@@ -34,7 +34,7 @@ Use **lowercase** directory names in paths and links where possible (`growth/`, 
 
 | Path | Role |
 |------|------|
-| [people/](people/) | Relationship management: snapshots, interactions, CSV index, helper scripts |
+| [people/](people/) | Relationship management: snapshots, interactions, CSV index, helper tools |
 | [growth/](growth/) | Learning, writing, reference material, and inbox scrapes |
 | [logs/](logs/) | Journals: daily, weekly, quarterly, and year-end reviews |
 | [health/](health/) | Health notes, routines, grocery, medical history |
@@ -42,7 +42,7 @@ Use **lowercase** directory names in paths and links where possible (`growth/`, 
 | [little-humans/](little-humans/) | Parenting notes and kids' activities |
 | [Grainger/](Grainger/) | Work-related notes (matching, tools to explore) |
 | [agent-setup/](agent-setup/) | Agent tooling and home-lab infrastructure plans |
-| [scripts-repo-level/](scripts-repo-level/) | Utility shell scripts for repo metrics (not domain content) |
+| [tools-repo-level/](tools-repo-level/) | Utility shell scripts for repo metrics (not domain content) |
 | `private-data/` | **Out of git.** Sensitive notes; see [Security](#security) |
 
 ### growth/ subtree
@@ -118,7 +118,7 @@ people/
   _templates/
     person-snapshot-template.md
     person-interaction-template.md
-  scripts/
+  tools/
     add-person.py
     delete-person.py
   {kebab-slug}/
@@ -161,8 +161,8 @@ Use templates in [people/_templates/](people/_templates/):
 Or use the helper script (preferred for new people):
 
 ```bash
-python people/scripts/add-person.py --name "Full Name" --category professional
-python people/scripts/add-person.py --dry-run --name "Full Name" --category friend
+python people/tools/add-person.py --name "Full Name" --category professional
+python people/tools/add-person.py --dry-run --name "Full Name" --category friend
 ```
 
 Run with missing required flags to print usage. `add-interaction.py` is **not implemented** — create interaction files from the template and sync snapshot + CSV manually.
@@ -286,7 +286,7 @@ Do not rename `raising-little-humas.md` unless the user asks.
 
 ## Scripts
 
-### people/scripts/
+### people/tools/
 
 Python CLI helpers. All support `--dry-run`. Missing required flags prints usage.
 
@@ -295,7 +295,7 @@ Python CLI helpers. All support `--dry-run`. Missing required flags prints usage
 | `add-person.py` | Create person folder, snapshot, and CSV row. Requires `--name`, `--category`. |
 | `delete-person.py` | Remove CSV row and on-disk folder. Requires `--person-id`; `--csv-only` keeps files. |
 
-### scripts-repo-level/
+### tools-repo-level/
 
 Utility shell scripts for repo metrics (file counts, sizes, line counts). Not part of domain workflows. Do not run or modify unless the user asks.
 
@@ -344,5 +344,5 @@ Utility shell scripts for repo metrics (file counts, sizes, line counts). Not pa
 
 If a subtree gains its own `AGENTS.md` later (e.g. `people/AGENTS.md`), the closest `AGENTS.md` to the edited file takes precedence for that subtree. Until then, this file plus domain readmes define conventions:
 
-- [people/Readme.md](people/Readme.md) — people schema, scripts, enums
+- [people/Readme.md](people/Readme.md) — people schema, tools, enums
 - [growth/topics-reference/Readme.md](growth/topics-reference/Readme.md) — reference vs active learning

@@ -18,11 +18,11 @@ TARGET_FREQUENCIES = frozenset({"as-needed", "monthly", "weekly", "quarterly"})
 
 USAGE_EXAMPLE = """\
 Example:
-  python people/scripts/add-person.py \\
+  python people/tools/add-person.py \\
     --name "Henry Beardsley" \\
     --category professional
 
-  python people/scripts/add-person.py \\
+  python people/tools/add-person.py \\
     --name "Alex Smith" \\
     --category friend \\
     --status in_circle \\
@@ -31,7 +31,7 @@ Example:
     --preferred-channel text \\
     --target-frequency monthly
 
-  python people/scripts/add-person.py \\
+  python people/tools/add-person.py \\
     --person-id p003 \\
     --name "Henry Beardsley" \\
     --category professional \\
