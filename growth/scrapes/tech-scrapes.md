@@ -98,6 +98,9 @@ https://github.com/OpenMOSS/MOSS-TTS
 
 ## Agentic applications and engineering 
 
+Vercel Eve - open source agent framework 
+https://github.com/vercel/eve
+
 Apache blur framework
 https://burr.apache.org/
 

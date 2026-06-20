@@ -5,8 +5,12 @@
 **Eleven labs** voice and voice cloning
 A 30 minute audio clip will give best cloning results 
 
+Local voice with openclaw
+https://izwiai.com/blog/give-openclaw-agents-local-voice
+
+
 ---
-# Locked in Architecture
+# Locked in Hardware Architecture
 
 The main laptop (Mac) as a driver. There should be two users
 1. standard user - has limited privledges - for running things
@@ -115,7 +119,7 @@ Rejected because it:
 
 
 
-## voice
+# voice
 
 ```
 [ Your Mic / Speaker ] 

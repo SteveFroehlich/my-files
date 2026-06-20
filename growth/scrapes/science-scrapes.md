@@ -22,3 +22,8 @@ https://www.windy.com/-Rain-thunder-rain?rain,2026-06-03-06,43.705,-91.732,4
 Checkout **Meteoblue** open science forecasts
 They have a forecast confidence measure
 https://content.meteoblue.com/en/research-education/specifications/weather-variables/predictability
+
+## machine learning research 
+
+Learning the fundamentals 
+https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning
