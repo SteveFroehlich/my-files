@@ -37,6 +37,8 @@ Each person gets a directory.
 
 `interactions` directory holds a file for each interaction.
 
+`events-that-build-relationships.md` — recurring group events and crews; reference when logging `group-event` interactions or planning who to invest in.
+
 ## Tools
 
 CLI helpers in `tools/` (flags only; missing required flags prints usage). All support `--dry-run`.
