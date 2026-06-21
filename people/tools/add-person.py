@@ -14,18 +14,20 @@ CSV_PATH = PEOPLE_DIR / "people-index.csv"
 TEMPLATE_PATH = PEOPLE_DIR / "_templates" / "person-snapshot-template.md"
 
 STATUSES = frozenset({"in_circle", "engaged", "following", "dormant"})
+CATEGORIES = frozenset({"friend", "colleague", "family", "acquaintance"})
 TARGET_FREQUENCIES = frozenset({"as-needed", "monthly", "weekly", "quarterly"})
 
 USAGE_EXAMPLE = """\
 Example:
   python people/tools/add-person.py \\
     --name "Henry Beardsley" \\
-    --category professional
+    --status following \\
+    --category acquaintance
 
   python people/tools/add-person.py \\
     --name "Alex Smith" \\
-    --category friend \\
     --status in_circle \\
+    --category friend \\
     --priority A \\
     --tags "friend,personal" \\
     --preferred-channel text \\
@@ -34,17 +36,18 @@ Example:
   python people/tools/add-person.py \\
     --person-id p003 \\
     --name "Henry Beardsley" \\
-    --category professional \\
+    --status following \\
+    --category acquaintance \\
     --last-contacted 2026-06-06 \\
     --next-follow-up 2026-06-14
 
 Required:
   --name       Full name (used to derive the directory slug)
-  --category   Relationship category (e.g. friend, professional, colleague)
+  --status     in_circle | engaged | following | dormant
 
 Optional:
+  --category             friend | colleague | family | acquaintance
   --person-id            Use an existing CSV row id instead of allocating the next one
-  --status               in_circle | engaged | following | dormant  (default: following)
   --priority             Priority label (e.g. A, B)
   --target-frequency     as-needed | monthly | weekly | quarterly  (default: as-needed)
   --tags                 Comma-separated tags for the CSV row
@@ -110,7 +113,7 @@ def render_snapshot(
     *,
     person_id: str,
     name: str,
-    category: str,
+    category: str | None,
     priority: str,
     preferred_channel: str,
     acquired_from: str,
@@ -128,8 +131,9 @@ def render_snapshot(
         "---",
         f"person_id: {person_id}",
         f"name: {yaml_value(name)}",
-        f"category: {yaml_value(category)}",
     ]
+    if category:
+        lines.append(f"category: {yaml_value(category)}")
     if priority:
         lines.append(f"priority: {yaml_value(priority)}")
     if preferred_channel:
@@ -152,9 +156,17 @@ def build_parser() -> argparse.ArgumentParser:
         epilog=USAGE_EXAMPLE,
     )
     parser.add_argument("--name", help="Full name of the person")
-    parser.add_argument("--category", help="Relationship category")
+    parser.add_argument(
+        "--category",
+        choices=sorted(CATEGORIES),
+        help="Relationship category",
+    )
     parser.add_argument("--person-id", help="Existing person_id to complete instead of allocating a new one")
-    parser.add_argument("--status", help="CSV status (default: following for new rows; preserved for --person-id)")
+    parser.add_argument(
+        "--status",
+        choices=sorted(STATUSES),
+        help="CSV status",
+    )
     parser.add_argument("--priority", help="Priority label")
     parser.add_argument(
         "--target-frequency",
@@ -185,15 +197,18 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
 
-    if not args.name or not args.category:
+    if not args.name or not args.status:
         missing = []
         if not args.name:
             missing.append("--name")
-        if not args.category:
-            missing.append("--category")
+        if not args.status:
+            missing.append("--status")
         fail(f"Missing required argument(s): {', '.join(missing)}")
 
-    if args.status is not None and args.status not in STATUSES:
+    if args.category is not None and args.category not in CATEGORIES:
+        fail(f"Invalid --category {args.category!r}. Must be one of: {', '.join(sorted(CATEGORIES))}")
+
+    if args.status not in STATUSES:
         fail(f"Invalid --status {args.status!r}. Must be one of: {', '.join(sorted(STATUSES))}")
 
     if args.target_frequency is not None and args.target_frequency not in TARGET_FREQUENCIES:
@@ -253,15 +268,15 @@ def main() -> None:
             {
                 "person_id": person_id,
                 "name": args.name,
-                "category": args.category,
+                "status": args.status,
                 "snapshot_path": snapshot_path_csv,
                 "has_sensitive_snapshot": args.has_sensitive_snapshot,
             }
         )
+        if args.category is not None:
+            csv_row["category"] = args.category
         if args.priority is not None:
             csv_row["priority"] = args.priority
-        if args.status is not None:
-            csv_row["status"] = args.status
         if args.target_frequency is not None:
             csv_row["target_frequency"] = args.target_frequency
         if args.tags is not None:
@@ -276,9 +291,9 @@ def main() -> None:
         csv_row = {
             "person_id": person_id,
             "name": args.name,
-            "category": args.category,
+            "category": args.category or "",
             "priority": args.priority or "",
-            "status": args.status or "following",
+            "status": args.status,
             "last_contacted": last_contacted,
             "next_follow_up": next_follow_up,
             "target_frequency": args.target_frequency or "as-needed",
@@ -287,10 +302,14 @@ def main() -> None:
             "tags": args.tags or "",
         }
 
+    snapshot_category = args.category
+    if snapshot_category is None:
+        snapshot_category = csv_row.get("category") or ""
+
     snapshot_content = render_snapshot(
         person_id=person_id,
         name=args.name,
-        category=args.category,
+        category=snapshot_category or None,
         priority=args.priority or csv_row.get("priority") or "",
         preferred_channel=args.preferred_channel or "",
         acquired_from=args.acquired_from or "",

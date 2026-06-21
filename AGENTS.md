@@ -161,8 +161,8 @@ Use templates in [people/_templates/](people/_templates/):
 Or use the helper script (preferred for new people):
 
 ```bash
-python people/tools/add-person.py --name "Full Name" --category professional
-python people/tools/add-person.py --dry-run --name "Full Name" --category friend
+python people/tools/add-person.py --name "Full Name" --status following --category colleague
+python people/tools/add-person.py --dry-run --name "Full Name" --status engaged --category friend
 ```
 
 Run with missing required flags to print usage. `add-interaction.py` is **not implemented** — create interaction files from the template and sync snapshot + CSV manually.
@@ -175,7 +175,7 @@ Run with missing required flags to print usage. `add-interaction.py` is **not im
 
 - `status`: `in_circle`, `engaged`, `following`, `dormant`
 - `target_frequency`: `as-needed`, `monthly`, `weekly`, `quarterly`
-- `category`: e.g. `friend`, `professional`, `colleague`
+- `category`: `friend`, `colleague`, `family`, `acquaintance`
 - `has_sensitive_snapshot`: if `true`, detailed sensitive notes may live outside this repo
 
 ### Keep index and snapshots in sync
@@ -292,7 +292,7 @@ Python CLI helpers. All support `--dry-run`. Missing required flags prints usage
 
 | Script | Purpose |
 |--------|---------|
-| `add-person.py` | Create person folder, snapshot, and CSV row. Requires `--name`, `--category`. |
+| `add-person.py` | Create person folder, snapshot, and CSV row. Requires `--name`, `--status`; `--category` optional. |
 | `delete-person.py` | Remove CSV row and on-disk folder. Requires `--person-id`; `--csv-only` keeps files. |
 
 ### tools-repo-level/

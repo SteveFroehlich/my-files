@@ -12,7 +12,6 @@ from pathlib import Path
 
 PEOPLE_DIR = Path(__file__).resolve().parent.parent
 CSV_PATH = PEOPLE_DIR / "people-index.csv"
-PROTECTED_PERSON_IDS = frozenset({"p002"})
 
 USAGE_EXAMPLE = """\
 Example:
@@ -106,12 +105,6 @@ def main() -> None:
 
     if not args.person_id:
         fail("Missing required argument: --person-id")
-
-    if args.person_id in PROTECTED_PERSON_IDS:
-        fail(
-            f"--person-id {args.person_id} is a schema example row and cannot be deleted. "
-            "Edit people-index.csv manually if you really want to remove it."
-        )
 
     if not CSV_PATH.exists():
         fail(f"CSV not found: {CSV_PATH}")

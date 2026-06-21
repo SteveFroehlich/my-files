@@ -41,13 +41,16 @@ Each person gets a directory.
 
 CLI helpers in `tools/` (flags only; missing required flags prints usage). All support `--dry-run`.
 
-- **`add-person.py`** — Create person folder, snapshot, and CSV row. Requires `--name`, `--category`.
+- **`add-person.py`** — Create person folder, snapshot, and CSV row. Requires `--name`, `--status`; `--category` optional.
 - **`delete-person.py`** — Remove CSV row and on-disk folder. Requires `--person-id`; `--csv-only` keeps files.
 - **`add-interaction.py`** — Not implemented; create interaction files from `person-interaction-template.md` and sync snapshot + CSV manually.
 
 ## Enums
 
-#### interaction .md file
+Enums are scoped to the file type where the field lives.
+
+#### interaction.md scoped enums
+
 **interaction_type**
 * email
 * text
@@ -56,18 +59,30 @@ CLI helpers in `tools/` (flags only; missing required flags prints usage). All s
 * in-person
 * group-event
 
-#### snapshot .md file 
-placeholder
+#### snapshot.md scoped enums
 
-#### people-index.csv
-**status**
+**category**
+* friend       — personal relationship
+* colleague    — someone you work with directly (same company or team)
+* family       — relatives
+* acquaintance — weaker or newer ties (e.g. met once, pipeline contact)
+
+#### people-index.csv scoped enums
+
+**status** (required by `add-person.py`)
 * in_circle
 * engaged
 * following
 * dormant
 
-**category** 
+**category** (optional; same values as snapshot `category`; validated by `add-person.py` when set)
+* friend
 * colleague
+* family
+* acquaintance
 
 **target_frequency**
 * as-needed
+* monthly
+* weekly
+* quarterly

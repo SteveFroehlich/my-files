@@ -5,7 +5,7 @@ preferred_channel: email
 email: henry@MaddBearAF.org
 phone: 847-737-5181
 website: www.maddbearAF.org
-category: professional
+category: acquaintance
 acquired_from: AHHS
 last_contacted: 2026-06-06
 next_follow_up: 2026-06-14

@@ -1,6 +1,7 @@
 ---
 person_id: p001
 name: "Kait Sweetman"
+category: acquaintance
 preferred_channel: email
 email: kait.sweetman@onegoalgraduation.org
 acquired_from: "posting from linkedIn then Tom Von Geldern"
