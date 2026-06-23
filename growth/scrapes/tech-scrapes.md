@@ -73,6 +73,14 @@ Openhome.org seems to be different
 
 ---
 
+## Agentic workflows
+
+GitHub agentic workflows
+https://github.github.com/gh-aw/
+
+
+---
+
 ## Generative UI
 
 Google I/O conference announcements 
@@ -156,10 +164,14 @@ https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 
 ---
 
-## local models
+## models to explore
 
 Local models are good now
 https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/
+
+Swiss open model
+https://apertvs.ai/
+
 
 ---
 

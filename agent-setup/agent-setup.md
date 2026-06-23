@@ -44,7 +44,7 @@ This gives the best balance of:
 - **Model:** Apple Mac mini
 - **Chip:** M4
 - **Memory:** 24GB unified memory
-- **Storage:** 256GB SSD
+- **Storage:** 512GB SSD
 - **Role:** Interactive development machine
 
 ### Primary Responsibilities
@@ -100,6 +100,9 @@ This gives the best balance of:
 - Silent operation
 - Cheap compared with a single large workstation
 - 32GB RAM is the practical minimum for reliable multi-container infra
+
+## Specific product
+[](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:29,imageDocid:9768742543616808115,gpcid:14974050177452040482,headlineOfferDocid:15932995795371518663,catalogid:16048235653598765486,productDocid:14994884106905227872,rds:PC_11165690026131338560%7CPROD_PC_11165690026131338560&q=product&sa=X&ved=2ahUKEwiwsM6iqpyVAxWynisGHXUQEEgQxa4PegYIAQgdEAI)HISTTON H3 Industrial (N100)
 
 ---
 # Agent specific context below
