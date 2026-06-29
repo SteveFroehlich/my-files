@@ -11,6 +11,8 @@
 * waffles
 * Spindrift 
 * Kombucha 
+* 72%+ coco chocolate 
+
 
 
 ## Trader Joes

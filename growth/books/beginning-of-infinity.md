@@ -15,7 +15,7 @@ Certain phenomena have explanations at higher levels than others. For example th
 ## Reach
 A theory or explanation can have a certain reach. For example Newton's theory of gravity has reach everywhere except in areas of large gravitational fields or at speeds close to the speed of light.
 
-One of the important aspects of human explanations is that the knowledge is creatd locally but the reach can be infinite. In the case of Newton's or Einstein's theories. Or the theory of quantum mechanics.
+One of the important aspects of explanations is that the knowledge is creatd locally but the reach can be infinite. In the case of Newton's or Einstein's theories. Or the theory of quantum mechanics.
 
 ## What is a good (vs bad) explanation
 A good explanation makes a prediction that is hard to vary. For example the explanation of the seasons that the Goddess Athena is sad is a bad explanation because we could vary the details of Athena's mood and other details about the theory and it would not affect the prediction.

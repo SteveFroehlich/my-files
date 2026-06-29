@@ -15,3 +15,7 @@ some beach time with
 - MDF
 - M&D
 - all crews coming
+
+# Activities 
+
+- rowing in unison. Eg Nora paddle board 

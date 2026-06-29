@@ -139,6 +139,9 @@ https://github.com/nexu-io/open-design
 
 [Spec-kit](https://github.com/github/spec-kit) and spec driven development.
 
+Spec driven development that claims to better than speckit by GitHub 
+https://github.com/open-gsd/gsd-core
+
 https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00
 
 Agentic design patterns
@@ -149,6 +152,14 @@ https://www.bassimeledath.com/blog/levels-of-agentic-engineering
 
 When grep vs rag is needed 
 https://arxiv.org/abs/2605.15184
+
+---
+
+## Sandboxing and environments
+
+MicroVM from AWS
+https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
+
 
 ---
 
@@ -190,18 +201,27 @@ https://www.anthropic.com/news/claude-corps
 
 ---
 
-Understand universal commerce protocol 
-https://www.newsfilecorp.com/release/294133/Amazon-Meta-Microsoft-Salesforce-and-Stripe-Join-the-Universal-Commerce-Protocol-Tech-Council
-
-
-Spec driven development that claims to better than speckit by GitHub 
-https://github.com/gsd-build/get-shit-done
+## Design and story telling tech
 
 Understand the Unified project and MDX adopted by Mintlify docs
 - https://unifiedjs.com/
 - MDX
     - https://readme.com/resources/mdx-cheat-sheet
     - https://github.com/mdx-js/mdx/blob/main/docs/docs/what-is-mdx.mdx
+
+UI Design guidance for coding agents
+https://github.com/pbakaus/impeccable
+
+---
+
+
+Open source notion with harness integration 
+https://github.com/inkeep/open-knowledge
+
+
+Understand universal commerce protocol 
+https://www.newsfilecorp.com/release/294133/Amazon-Meta-Microsoft-Salesforce-and-Stripe-Join-the-Universal-Commerce-Protocol-Tech-Council
+
 
 METR understanding frontier models and AI progress 
 https://metr.org/

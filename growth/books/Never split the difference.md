@@ -5,11 +5,11 @@ By Chris Voss
 
 #### Mirroring
 
-Placeholder
+Repeating back the last or most important words with an upward inflection to pose as a question back to then to elaborate.
 
 #### Labeling
 
-placeholder
+The practice of putting a label on the emotions you observe in your counterpart. 
 
 #### Tactical empathy
 Placeholder
