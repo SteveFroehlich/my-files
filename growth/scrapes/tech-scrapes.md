@@ -172,8 +172,31 @@ https://www.iroh.computer/blog/v1
 Claude cyber security skills 
 https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 
+unix password manager: pass
+https://www.passwordstore.org/
+#### What is pass?
+pass is a minimalist command-line password manager. It is a simple bash script that stores 
+passwords as ordinary text files encrypted with standard GPG and organized inside folders.
+#### Why Abandonment is Not a Concern
+
+* No proprietary locks: Your data is just a standard directory of open-source GPG files.
+* Zero software dependence: If the software disappears, you can still decrypt any password 
+using the native system command: gpg -d password.gpg.
+* Interoperable clones: If the main project stops, community-driven alternatives (like 
+gopass) can read your exact same data folder natively.
+
+#### Why Maintenance Overhead is a Concern
+
+* Manual key management: You are solely responsible for generating, securing, and backing up 
+your private GPG keys.
+* Self-managed syncing: You must configure your own synchronization system (like Git or 
+Syncthing) to move passwords across devices.
+* Mobile friction: Setting up and maintaining GPG key pairs on iOS and Android requires 
+manual configuration and technical troubleshooting.
+
 
 ---
+
 
 ## models to explore
 
