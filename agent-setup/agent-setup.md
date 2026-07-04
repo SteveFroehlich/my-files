@@ -152,3 +152,15 @@ Speech-to-Text (STT): Faster-Whisper. This is a highly optimized CTranslate2 imp
 Audio In/Out Pipeline: Pipecat (Local Runner). An open-source Python framework designed for real-time voice orchestration. It handles voice activity detection (VAD), meaning it knows exactly when you stop talking and when to mute your speakers if you interrupt the agent.
 
 Text-to-Speech (TTS): Piper. A blazing-fast local neural text-to-speech system that can easily match the speed of your terminal output.
+
+# Data setup
+
+AGENTS.md - the team roster ?
+
+Memory.md - the permanent brain 
+
+Dream.md - daily log 
+
+Prompts.md - the human blueprint 
+
+

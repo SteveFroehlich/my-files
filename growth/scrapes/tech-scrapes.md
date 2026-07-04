@@ -71,6 +71,9 @@ Openhome.org seems to be different
 * https://github.com/openhome/
 * http://openhome.org/#
 
+Open source speech models
+https://github.com/OpenMOSS/MOSS-TTS
+
 ---
 
 ## Agentic workflows
@@ -97,9 +100,6 @@ https://github.com/tastyeffectco/sandboxes
 
 Perplexity agentic search
 https://research.perplexity.ai/articles/rethinking-search-as-code-generation
-
-Open source speech models
-https://github.com/OpenMOSS/MOSS-TTS
 
 
 ---
