@@ -5,14 +5,13 @@
 * low sugar oatmeal
 * tea
 * Amy's soups
-* oat milk
+* soy milk
 * shredded wheat cereal
 * bananas
 * waffles
 * Spindrift 
 * Kombucha 
-* 72%+ coco chocolate 
-
+* 85%+ coco chocolate 
 
 
 ## Trader Joes
@@ -23,6 +22,8 @@
 	* Mango
 * peanut butter
 * frozen fruit (pineapple)
+* Sweet potato 
+* Black beans
 
 ## TBD
 * organic sweet potato 

@@ -56,6 +56,9 @@ https://github.com/microsoft/VibeVoice
 
 11 labs - voice agents
 
+Open source framework for voice and multimodal conversational AI.
+https://www.pipecat.ai/
+
 Try voice ai model https://qwen.ai/blog?id=qwen3tts-0115
 
 Open source voice clone
@@ -73,6 +76,13 @@ Openhome.org seems to be different
 
 Open source speech models
 https://github.com/OpenMOSS/MOSS-TTS
+
+---
+
+## Sandboxing and environments
+
+MicroVM from AWS
+https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
 
 ---
 
@@ -152,14 +162,6 @@ https://www.bassimeledath.com/blog/levels-of-agentic-engineering
 
 When grep vs rag is needed 
 https://arxiv.org/abs/2605.15184
-
----
-
-## Sandboxing and environments
-
-MicroVM from AWS
-https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
-
 
 ---
 
