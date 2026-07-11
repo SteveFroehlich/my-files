@@ -4,19 +4,32 @@ add some content
 
 ---
 
+I realized saying I don’t have time is a way of fooling myself. I use to say it. Now I have found something that works better (at least for me).
+
+We all have about 16 waking hours in a day. That rarely changes. What changes is how we prioritize that time.
+
+So when I said, I don’t have time to workout, what I really was doing is not prioritizing working out in my 16 hour block. 
+
+So now when I catch myself saying I don’t have time for X, I force myself instead to say: I’m not prioritizing X.
+
+Which makes me face my decisions instead of hide behind time.
+
+Now 
+I’m not prioritizing:
+- working out
+- Eating healthy 
+- Sleeping
+- Spending time on important relationships 
+- Whatever I use time as an excuse not to do
+
+That hits me way harder and has helped change my behavior for the better. Sharing in hopes it does the same for you.
+
+---
+
 I am enjoying management more than originally thought I would. I’ve always loved teaching, both my parents were teachers. I kind of feel like a teacher that can give students jobs tailored directly for them (including compensation). Kind of wild.
 
 I also get to see the smile on their face when they are told they got promoted or when we make them an offer for a job they really want. 
 
-
----
-
-Quote:
-You can outsource your thinking (to AI)
-But you can’t outsource your understanding 
-
-We aren’t constrained by our thinking.
-We are constrained by our understanding and the quality of our judgement 
 
 ---
 

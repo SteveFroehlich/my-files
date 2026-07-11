@@ -1,4 +1,7 @@
 
+Tokyo based, that’s awesome. Digital assets work across country boundaries. I probably should be less surprised. 
+
+
 Navier stokes fluid simulation 
 https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot
 
@@ -27,3 +30,19 @@ https://content.meteoblue.com/en/research-education/specifications/weather-varia
 
 Learning the fundamentals 
 https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning
+
+Foundational papers
+https://30papers.com/
+
+
+---
+
+## Genomics 
+
+Genomics for developers
+https://learngenomics.dev/docs/biological-foundations/cells-genomes-dna-chromosomes/
+
+
+---
+
+

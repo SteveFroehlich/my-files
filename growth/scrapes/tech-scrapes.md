@@ -15,6 +15,18 @@ Other:
 
 ---
 
+### references from others
+
+LinkedIn 
+https://www.anthropic.com/research/claude-code-expertise
+
+---
+
+Agents Microsoft office tools!
+https://github.com/iOfficeAI/OfficeCLI
+
+---
+
 Mistral AI strategy. Aligned with mine. Eg specialized models.
 https://koenvangilst.nl/lab/mistral-ai-now-summit
 
