@@ -1,11 +1,18 @@
 
 # Definitions
+
 - **Semantic** -- The broader branch of linguistics concerned with the exact meaning of words, how their meanings change, and how they relate to other words
 
+- **Rhetoric** — of, relating to, or concerned with the art of speaking or writing formally and effectively especially as a way to persuade or influence people. 
+	- Rhetorical question - question made for the point not an actual response 
+
+- **Interest** — a feeling that accompanies or causes special attention to something or someone
+
 ## Interesting alternatives
+
+* **Intriguing** — arouses curiosity or suspense.
 * **Captivating** — holds your attention completely.
 * **Fascinating** — intensely interesting or charming.
-* **Intriguing** — arouses curiosity or suspense.
 * **Engaging** — keeps you involved and focused.
 * **Compelling** — forces your attention or belief.
 * **Gripping** — takes a powerful hold on you.

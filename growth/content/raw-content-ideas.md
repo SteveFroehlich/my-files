@@ -30,6 +30,10 @@ I am enjoying management more than originally thought I would. I’ve always lov
 
 I also get to see the smile on their face when they are told they got promoted or when we make them an offer for a job they really want. 
 
+Teacher
+Coach 
+Friend
+Player 
 
 ---
 

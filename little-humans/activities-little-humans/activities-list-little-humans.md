@@ -123,14 +123,17 @@ Tea - Coffee 
 - Luke  
 - Vac 
 
-Locations by Car 
+## Locations by Car 
+
 Elroy WI bike trails (3 hour drive) 
 (Bike trails from abandon train tracks) 
 [https://dnr.wisconsin.gov/topic/parks/elroysparta](https://dnr.wisconsin.gov/topic/parks/elroysparta)  
 Turkey Run state park (3 hour drive) 
 https://maps.app.goo.gl/2BreHnSF3i23zoPc7?g_st=ic 
+- Shelbyville [camping location](https://maps.app.goo.gl/FPcm3Drg8fzx3SKYA?g_st=ic)
 
-Locations by plane 
+## Locations by plane 
+
 - Canada ice skating in Ottawa in Icelynd  
 - [List of Ottawa skating](https://ottawatourism.ca/en/ottawa-insider/best-ice-skating-experiences-ottawa)  
 - [https://icelynd.com/](https://icelynd.com/)

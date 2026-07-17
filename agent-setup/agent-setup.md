@@ -1,18 +1,19 @@
-
 # Possible enhancements
 
 ## Voice
+
 **Eleven labs** voice and voice cloning
 A 30 minute audio clip will give best cloning results 
 
 Local voice with openclaw
-https://izwiai.com/blog/give-openclaw-agents-local-voice
-
+[https://izwiai.com/blog/give-openclaw-agents-local-voice](https://izwiai.com/blog/give-openclaw-agents-local-voice)
 
 ---
+
 # Locked in Hardware Architecture
 
 The main laptop (Mac) as a driver. There should be two users
+
 1. standard user - has limited privledges - for running things
 2. admin user - has sensitive files but encrypted using FileVault
 
@@ -24,6 +25,7 @@ Server architecture uses a **two-machine split architecture**:
 This avoids overpaying for one large machine while improving concurrency, isolation, reliability, and responsiveness.
 
 setup specs:
+
 - **Mac mini M4 / 24GB RAM / 256GB SSD**
 - **Fanless Intel N100 Linux mini PC / 32GB RAM / 512GB SSD**
 
@@ -35,9 +37,14 @@ This gives the best balance of:
 - Docker capacity
 - Experimentation flexibility
 - Long-term extensibility
+
 ---
 
+
+
 ## 1. Mac mini — Primary Dev Machine / Control Plane
+
+
 
 ### Recommended Spec
 
@@ -46,6 +53,8 @@ This gives the best balance of:
 - **Memory:** 24GB unified memory
 - **Storage:** 512GB SSD
 - **Role:** Interactive development machine
+
+
 
 ### Primary Responsibilities
 
@@ -58,6 +67,8 @@ This gives the best balance of:
 - Occasional local LLM usage
 - Control plane for managing the Linux box
 
+
+
 ### Rationale
 
 - Strong performance-per-dollar
@@ -68,7 +79,11 @@ This gives the best balance of:
 
 ---
 
+
+
 ## 2. Linux Mini PC — Always-On Infra / Compute Plane
+
+
 
 ### Recommended Spec
 
@@ -78,6 +93,8 @@ This gives the best balance of:
 - **Storage:** 512GB SSD
 - **Cooling:** Fanless
 - **Role:** Always-on local infrastructure box
+
+
 
 ### Primary Responsibilities
 
@@ -92,6 +109,8 @@ This gives the best balance of:
 - Persistent services
 - Occasional vector DB workloads
 
+
+
 ### Rationale
 
 - Dedicated always-on compute
@@ -101,13 +120,31 @@ This gives the best balance of:
 - Cheap compared with a single large workstation
 - 32GB RAM is the practical minimum for reliable multi-container infra
 
+
+
 ## Specific product
-[](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:29,imageDocid:9768742543616808115,gpcid:14974050177452040482,headlineOfferDocid:15932995795371518663,catalogid:16048235653598765486,productDocid:14994884106905227872,rds:PC_11165690026131338560%7CPROD_PC_11165690026131338560&q=product&sa=X&ved=2ahUKEwiwsM6iqpyVAxWynisGHXUQEEgQxa4PegYIAQgdEAI)HISTTON H3 Industrial (N100)
+
+HISTTON H3 Industrial (N100). Model name: **H3D-N100-2L**
+
+#### buying options
+
+[amazon]([https://www.amazon.com/MeLE-Computers-Full-Functional-Education-Astrophotography/dp/B0DPM3GX7B?th=1](https://www.amazon.com/MeLE-Computers-Full-Functional-Education-Astrophotography/dp/B0DPM3GX7B?th=1))
+
+HISTTON is hard to find. This might be close enough:
+[MeLE](https://www.amazon.com/MeLE-Computers-Full-Functional-Education-Astrophotography/dp/B0DPM3GX7B?th=1)
+
 
 ---
+
+
+
 # Agent specific context below
 
+
+
 ## Rejected Option
+
+
 
 ### Single Large Machine, e.g. Meerkat 64GB at ~$2,200
 
@@ -143,6 +180,8 @@ Rejected because it:
 └────────────────────────────────────────┘
 ```
 
+
+
 ### 🧱 The 100% Local Voice Stack
 
 To avoid dependencies on web browsers or remote cloud WebRTC infrastructure, orchestrate your local machine using three specific open-source tools:
@@ -162,5 +201,3 @@ Memory.md - the permanent brain
 Dream.md - daily log 
 
 Prompts.md - the human blueprint 
-
-
