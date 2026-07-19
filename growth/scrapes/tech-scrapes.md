@@ -263,15 +263,12 @@ Swiss open model
 
 ---
 
-
-
 ## version control
 
 Lore: binary first storage
 [https://lore.org/](https://lore.org/)
 
 ---
-
 
 
 ## AI for non profits
