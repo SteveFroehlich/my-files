@@ -26,3 +26,13 @@ Sensitive notes live in `private-data/` (gitignored, local only).
 | Size    | 1.8M   |
 | Lines   | 3,660  |
 Non-hidden content (excludes `.git`, `.obsidian`, and `private-data/`).
+
+## Todo
+
+- agent setup and voice
+- Personal site + nostr/farcaster
+
+### Freedom
+    - jazz band
+    - Arlington bubble
+    - Forge native
