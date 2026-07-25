@@ -15,16 +15,27 @@ Other:
 - 
 - [https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/](https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/)
 
+
 ---
 
+## decentralized social and AI native orgs
+
+Buzz to combine team chat, AI agents and Git hosting
+https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git
+
+---
+
+## epaper ebook tech
+
+Open ecosystem for ereaders
+https://freeink.org/
+
+
+---
 #### Crypto Scapres
 
-
-
 Ethereum roadmap
-
 [https://strawmap.org/](https://strawmap.org/)
-
 
 
 ---
@@ -66,6 +77,9 @@ Cursor Agentic SDK
 Hermes personal ai assistant 
 [https://hermes-agent.nousresearch.com/](https://hermes-agent.nousresearch.com/)
 [https://hermes-agent.org/](https://hermes-agent.org/)
+
+Andrew Ng openWorker agent
+https://openworker.com/
 
 Try anthropic managed agents
 [https://claude.com/blog/claude-managed-agents](https://claude.com/blog/claude-managed-agents)
@@ -126,16 +140,12 @@ MicroVM from AWS
 
 ---
 
-
-
 ## Agentic workflows
 
 GitHub agentic workflows
 [https://github.github.com/gh-aw/](https://github.github.com/gh-aw/)
 
 ---
-
-
 
 ## Generative UI
 
@@ -148,12 +158,15 @@ Sandbox for the bring your own agent
 
 ---
 
-
-
 ## Next gen search
 
 Perplexity agentic search
 [https://research.perplexity.ai/articles/rethinking-search-as-code-generation](https://research.perplexity.ai/articles/rethinking-search-as-code-generation)
+
+Specialized AI Ecosystem Solutions
+
+- **Bloomreach & Algolia**: Leading the replacement of keyword search with **intent-based vector search**. This shift helps customers find products based on natural language queries rather than rigid keywords.
+- **Dynamic Yield (Mastercard)**: A premier platform for algorithmic personalizations. It automatically alters site interfaces, graphics, and checkout experiences in real time based on user behavior.
 
 ---
 
@@ -214,6 +227,11 @@ When grep vs rag is needed
 
 ## security scrapes
 
+Use `sudo mtr -r -c 100 -w Google.com`
+Instead of `ping google.com` 
+Mtr does need to be installed 
+
+
 Keys not IPs
 [https://www.iroh.computer/blog/v1](https://www.iroh.computer/blog/v1)
 
@@ -252,6 +270,12 @@ https://www.yubico.com/
 
 ## models to explore
 
+Kimi open model claims on competitive with fable
+https://fireworks.ai/blog/kimik3-fable
+
+Simple open models Ollama
+https://ollama.com/blog/all-aboard-open-models
+
 Local models are good now
 [https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
 
@@ -260,6 +284,12 @@ https://prismml.com/news/bonsai-27b
 
 Swiss open model
 [https://apertvs.ai/](https://apertvs.ai/)
+
+Qwen 3.8
+https://x.com/alibaba_qwen/status/2078759124914098291
+
+
+
 
 ---
 

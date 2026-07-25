@@ -7,6 +7,22 @@ CEO was on A16Z podcast Monday June 15.
 ## Comfy UI
 Becoming the industry standard 
 
+---
+
+## open models
+
+Qwen rich content 
+https://qwen.ai/blog?id=qwen-image-3.0
+
+
+---
+
+## openGL
+Powers manim I believe 
+https://learnopengl.com/
+
+---
+
 ## 2026-05-14
 
 #### Interactive Platforms & Hubs

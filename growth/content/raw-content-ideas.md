@@ -53,6 +53,8 @@ X-axis —> same time as a16z plot
 
 ---
 
+## code out of git
+
 Code should become a build artifact.
 
 Read articles that git is broken in the AI era.
@@ -62,7 +64,17 @@ GitHub is cracking under the load, New versioning systems are coming out to addr
 But what if we are not realizing code is now a build artifact. It is a generated output of the new input: specs, Agents.md, skills/ etc. It belongs in artifactory or ECR not in git.
 
 Just a thought, maybe it’s not the system, GitHub/git/version control that needs to change. It’s our mindset 🤔thoughts?
+--
 
+#### ai chat
+
+Maybe it’s whether we’ve mistaken code for the source of software.
+
+If the true source becomes specifications, architecture, tests, and constraints, then code may simply become another build artifact.
+
+The future might not require a better GitHub.
+
+It might require a different definition of “source code.”
 ---
 
 Business and software systems are going to start to resemble high frequency trading as AI matures here is my rationale 
