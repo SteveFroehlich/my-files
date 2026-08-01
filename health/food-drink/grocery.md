@@ -27,6 +27,10 @@
 
 ## TBD
 * organic sweet potato 
+* Plain organic lentils
+* Plain organic beans
+* Spinach
+* Kale
 
 ## Tea
 

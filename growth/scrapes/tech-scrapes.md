@@ -15,6 +15,13 @@ Other:
 - 
 - [https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/](https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/)
 
+---
+
+## future email
+
+Http based email:
+https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/
+
 
 ---
 
@@ -77,6 +84,9 @@ Cursor Agentic SDK
 Hermes personal ai assistant 
 [https://hermes-agent.nousresearch.com/](https://hermes-agent.nousresearch.com/)
 [https://hermes-agent.org/](https://hermes-agent.org/)
+
+Deep tutor
+https://deeptutor.info/
 
 Andrew Ng openWorker agent
 https://openworker.com/
