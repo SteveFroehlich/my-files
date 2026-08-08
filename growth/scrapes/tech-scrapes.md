@@ -30,6 +30,9 @@ https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-part
 Buzz to combine team chat, AI agents and Git hosting
 https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git
 
+Nostr social
+
+
 ---
 
 ## epaper ebook tech
@@ -74,8 +77,10 @@ Also Peter mentioned don’t need MCP just use CLI.
 
 Other options:
 
-- zeroclaw
-- Nanoclaw
+- *zeroclaw*
+- *PicoClaw*
+- *Nanoclaw*
+- MicroClaw
 - MemU
 
 Cursor Agentic SDK
@@ -99,7 +104,17 @@ NVIDIA openclaw runner
 
 ---
 
-## coding harness
+## AI coding
+
+Open code
+
+Warp CLI
+https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent
+
+Long horizon programming impressive benchmark 
+https://epoch.ai/MirrorCode
+
+#### coding harness
 
 Grok build. Harness for grok
 https://github.com/xai-org/grok-build
@@ -140,8 +155,34 @@ Open source speech models
 [https://github.com/OpenMOSS/MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)
 
 ---
+## AI native orgs
+
+YC AI native framework 
+https://github.com/yc-software/qm
+
+Paperclip
+*Open-source orchestration for zero-human companies* 
+[https://github.com/paperclipai/paperclip](https://github.com/paperclipai/paperclip)
+
+Dashboards as code. Maybe steal approach for roadmap PPT from code
+[https://github.com/bruin-data/dac](https://github.com/bruin-data/dac)
+
+Company as code post
+[https://blog.42futures.com/p/company-as-code](https://blog.42futures.com/p/company-as-code)
+
+Fully atononmous company
+[https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo](https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo)
+
+Gitlab reorg announcement 
+[https://about.gitlab.com/blog/gitlab-act-2/](https://about.gitlab.com/blog/gitlab-act-2/)
+
+Open source organizational search 
+[https://github.com/getomnico/omni](https://github.com/getomnico/omni)
+
+---
 
 
+---
 
 ## Sandboxing and environments
 
@@ -384,28 +425,6 @@ OpenAI symphony:
 Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. 
 [https://github.com/openai/symphony](https://github.com/openai/symphony)
 
-## AI native orgs
-
-Paperclip
-*Open-source orchestration for zero-human companies* 
-[https://github.com/paperclipai/paperclip](https://github.com/paperclipai/paperclip)
-
-Dashboards as code. Maybe steal approach for roadmap PPT from code
-[https://github.com/bruin-data/dac](https://github.com/bruin-data/dac)
-
-Company as code post
-[https://blog.42futures.com/p/company-as-code](https://blog.42futures.com/p/company-as-code)
-
-Fully atononmous company
-[https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo](https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo)
-
-Gitlab reorg announcement 
-[https://about.gitlab.com/blog/gitlab-act-2/](https://about.gitlab.com/blog/gitlab-act-2/)
-
-Open source organizational search 
-[https://github.com/getomnico/omni](https://github.com/getomnico/omni)
-
----
 
 An agentic skills framework & software development methodology that works. 
 [https://github.com/obra/superpowers](https://github.com/obra/superpowers)

@@ -7,6 +7,16 @@ CEO was on A16Z podcast Monday June 15.
 ## Comfy UI
 Becoming the industry standard 
 
+Comfy UI sounds and video 
+https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui
+
+---
+## ai movies
+
+Ai micro drama trends. Micro dramas are bigger than box office in china 
+https://www.neweconomies.co/p/justine-moore-andreessen-horowitz?utm_campaign=post&utm_medium=web
+
+
 ---
 
 ## open models
