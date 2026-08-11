@@ -27,6 +27,11 @@ https://qwen.ai/blog?id=qwen-image-3.0
 
 ---
 
+LLM generative animations
+https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/
+
+---
+
 ## openGL
 Powers manim I believe 
 https://learnopengl.com/

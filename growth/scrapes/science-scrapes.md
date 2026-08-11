@@ -19,6 +19,9 @@ NWS is automating COOP sites. Could I get a free weather station if I maintained
 Argonne Environmental sciences division. Has a severe weather lab for seasonal prediction.
 [https://www.anl.gov/evs](https://www.anl.gov/evs)
 
+AI + global model forecasts from Google
+https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
+
 Checkout the windy app
 https://www.windy.com/-Rain-thunder-rain?rain,2026-06-03-06,43.705,-91.732,4
 
@@ -45,4 +48,9 @@ https://learngenomics.dev/docs/biological-foundations/cells-genomes-dna-chromoso
 
 ---
 
+## models
 
+LLMs for science 
+https://genesisopenmodels.anl.gov/
+
+---

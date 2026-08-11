@@ -186,6 +186,9 @@ Open source organizational search
 
 ## Sandboxing and environments
 
+Docker sandboxes
+https://www.docker.com/products/docker-sandboxes/
+
 MicroVM from AWS
 [amazon ](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/)
 
@@ -554,3 +557,6 @@ Ai orchestration for Claude code
 
 HTTP QUERY
 [https://www.rfc-editor.org/info/rfc10008/](https://www.rfc-editor.org/info/rfc10008/)
+
+New change to DNS
+https://specification.website/spec/foundations/for-sale-dns/

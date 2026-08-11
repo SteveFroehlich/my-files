@@ -2,6 +2,9 @@
 ## Morning
 Morning latte with one espresso to jump start focus taken with a glass of water. Usually a banana or small carbohydrate based snack is taken at the same time.
 
+Wake up.
+Do longevity exercises 
+
 Morning fast.
 Outside of the above I fast until lunch.
 
@@ -10,6 +13,7 @@ Ideally I would get in some workout mid day.
 
 Lunch.
 Try to eat a balanced healthy lunch.
+Longevity exercises
 
 Afternoon fast.
 Only consume water, tea, carbonated water until dinner.
