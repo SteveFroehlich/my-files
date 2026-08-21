@@ -4,6 +4,15 @@ add some content
 
 ---
 
+Death of features
+Shipping more features probably won’t make your software better. Features are not the bottleneck.
+
+Does the death of features mean we don’t need roadmaps. 
+
+Move toward capabilities maps and generative software 
+
+---
+
 I realized saying I don’t have time is a way of fooling myself. I use to say it. Now I have found something that works better (at least for me).
 
 We all have about 16 waking hours in a day. That rarely changes. What changes is how we prioritize that time.

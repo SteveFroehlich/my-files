@@ -1,6 +1,10 @@
 
+Related posts
+Extensible software 
+https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/
+
 ## Experiment from prompt:
-can you give me the TL Dr for this articlehttps://every.to/guides/agent-native
+can you give me the TL Dr for this article https://every.to/guides/agent-native
 
 ## content
 To test these agent-native architectural claims, you should avoid heavy frameworks like LangChain. Instead, build a minimalist, local TypeScript or Python CLI prototype using the raw Anthropic or OpenAI API.

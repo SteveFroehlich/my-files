@@ -106,6 +106,9 @@ NVIDIA openclaw runner
 
 ## AI coding
 
+PI harness - self updating if needed
+https://pi.dev/
+
 Open code
 
 Warp CLI
@@ -119,21 +122,19 @@ https://epoch.ai/MirrorCode
 Grok build. Harness for grok
 https://github.com/xai-org/grok-build
 
+Code and conversation in the same IDE
+https://zed.dev/blog/introducing-delta
+
 
 ---
 
 ## voice
 
-Real time voice chat?
-[https://github.com/Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)
 
 Voice AI open source from Microsoft 
 [https://github.com/microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
 
 11 labs - voice agents
-
-Open source framework for voice and multimodal conversational AI.
-[https://www.pipecat.ai/](https://www.pipecat.ai/)
 
 Try voice ai model [https://qwen.ai/blog?id=qwen3tts-0115](https://qwen.ai/blog?id=qwen3tts-0115)
 
@@ -154,8 +155,25 @@ Openhome.org seems to be different
 Open source speech models
 [https://github.com/OpenMOSS/MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)
 
+--  looked at —
+
+Open source framework for voice and multimodal conversational AI.
+[https://www.pipecat.ai/](https://www.pipecat.ai/)
+**Verdict**: seems like speech to text and text to speech are very coupled. 
+
+Real time voice chat
+[https://github.com/Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTub
+**Verdict**: it is more focused on an avatar and not voice to text and text to voice 
+
+
 ---
 ## AI native orgs
+
+Company as code post
+[https://blog.42futures.com/p/company-as-code](https://blog.42futures.com/p/company-as-code)
+Verdict: like a lot
+Read follow up:  https://blog.42futures.com/p/my-business-as-code
+
 
 YC AI native framework 
 https://github.com/yc-software/qm
@@ -167,8 +185,6 @@ Paperclip
 Dashboards as code. Maybe steal approach for roadmap PPT from code
 [https://github.com/bruin-data/dac](https://github.com/bruin-data/dac)
 
-Company as code post
-[https://blog.42futures.com/p/company-as-code](https://blog.42futures.com/p/company-as-code)
 
 Fully atononmous company
 [https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo](https://www.indiehackers.com/post/tech/growing-a-fully-autonomus-business-to-a-500k-mo-in-3-months-diZ8gkqMHm0CvEsc7Pfo)
@@ -180,11 +196,20 @@ Open source organizational search
 [https://github.com/getomnico/omni](https://github.com/getomnico/omni)
 
 ---
+## AI infrastructure 
+
+Open source model hosting platforms 
+- https://deepinfra.com/
 
 
 ---
 
-## Sandboxing and environments
+## AI native software design
+
+Extensible software 
+https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/
+
+#### Sandboxing and environments
 
 Docker sandboxes
 https://www.docker.com/products/docker-sandboxes/
@@ -362,6 +387,13 @@ Claude fellow program. Could be source of talent
 
 ---
 
+## zero knowledge proofs
+
+Simple zero knowledge proof
+https://bernsteinbear.com/blog/zkp/
+
+
+---
 
 
 ## Design and story telling tech

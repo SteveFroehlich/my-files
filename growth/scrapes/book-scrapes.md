@@ -1,4 +1,11 @@
 
+Constraints instead of goals
+https://youtu.be/ZtbriAhl2UU
+
+The scale of time 
+https://youtu.be/nOVvEbH2GC0
+
+
 Here is the complete list of all 14 books recommended so far, organized by the specific category we discussed:
 
 ## Foundational Science, Evolution & Progress
@@ -11,7 +18,6 @@ Here is the complete list of all 14 books recommended so far, organized by the s
 
 ## Physics, Computation & The Cosmos
 
-- The Fabric of Reality by David Deutsch
 - Our Mathematical Universe by Max Tegmark
 - Gödel, Escher, Bach by Douglas Hofstadter
 - Seven Brief Lessons on Physics by Carlo Rovelli
