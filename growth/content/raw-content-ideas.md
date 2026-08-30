@@ -13,25 +13,24 @@ Move toward capabilities maps and generative software
 
 ---
 
-I realized saying I don’t have time is a way of fooling myself. I use to say it. Now I have found something that works better (at least for me).
+I realized saying I don’t have time for ‘X’ is a way of fooling myself. I use to say it. 
 
-We all have about 16 waking hours in a day. That rarely changes. What changes is how we prioritize that time.
+We all have about 16 waking hours in a day. That rarely changes. What changes is our priority.
 
-So when I said, I don’t have time to workout, what I really was doing is not prioritizing working out in my 16 hour block. 
+So when I said, I don’t have time to workout, what I  was actually doing is not prioritizing working out in my 16 hour block. 
 
 So now when I catch myself saying I don’t have time for X, I force myself instead to say: I’m not prioritizing X.
 
-Which makes me face my decisions instead of hide behind time.
+Which hits harder and makes me face my decisions instead of hiding behind time.
 
-Now 
-I’m not prioritizing:
+Here are some common things that have improved since this change:
 - working out
 - Eating healthy 
 - Sleeping
-- Spending time on important relationships 
-- Whatever I use time as an excuse not to do
+- important relationships 
+- Experimental work and personal projects
 
-That hits me way harder and has helped change my behavior for the better. Sharing in hopes it does the same for you.
+Sharing in hopes it does similar for you.
 
 ---
 

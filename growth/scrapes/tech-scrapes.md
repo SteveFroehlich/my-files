@@ -102,6 +102,12 @@ Try anthropic managed agents
 NVIDIA openclaw runner
 [https://github.com/NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)
 
+### cloud based agents
+
+Grok build 2026-08-28
+https://github.com/xai-org/grok-build
+
+
 ---
 
 ## AI coding

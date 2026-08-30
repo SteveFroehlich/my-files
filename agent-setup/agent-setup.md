@@ -10,153 +10,120 @@ Local voice with openclaw
 
 ---
 
-# Locked in Hardware Architecture
+# Four-Machine Hardware Architecture
 
-The main laptop (Mac) as a driver. There should be two users
+The architecture separates workloads by **security boundary and operational role**:
 
-1. standard user - has limited privledges - for running things
-2. admin user - has sensitive files but encrypted using FileVault
-
-Server architecture uses a **two-machine split architecture**:
-
-1. **Mac mini** = interactive development / control plane
-2. **Linux mini PC** = always-on infrastructure / compute plane
-
-This avoids overpaying for one large machine while improving concurrency, isolation, reliability, and responsiveness.
-
-setup specs:
-
-- **Mac mini M4 / 24GB RAM / 256GB SSD**
-- **Fanless Intel N100 Linux mini PC / 32GB RAM / 512GB SSD**
-
-This gives the best balance of:
-
-- Cost
-- Responsiveness
-- Always-on reliability
-- Docker capacity
-- Experimentation flexibility
-- Long-term extensibility
+1. **Dirty Machine** — isolated machine for highly sensitive transactions.
+2. **Driver Machine** — primary personal/interactive workstation.
+3. **Build Server** — (TBD if needed) dedicated macOS development and build environment.
+4. **Linux Always-On Server** — 24/7 infrastructure for agents, containers, and AI workloads.
 
 ---
 
+## 1. Dirty Machine
 
+**Model:** ASUS Chromebook CX1
 
-## 1. Mac mini — Primary Dev Machine / Control Plane
+**Specs**
+- 15.6" 1080p display
+- Intel Celeron N4500
+- 4 GB RAM
+- 128 GB storage
+- ~$159 reference price
 
+**Main Responsibilities**
+- Highly sensitive web transactions
+- Financial/account security operations
+- Isolated browsing where compromise of the primary workstation is unacceptable
+- Minimal software and attack surface
 
-
-### Recommended Spec
-
-- **Model:** Apple Mac mini
-- **Chip:** M4
-- **Memory:** 24GB unified memory
-- **Storage:** 512GB SSD
-- **Role:** Interactive development machine
-
-
-
-### Primary Responsibilities
-
-- Browser
-- IDE / editor
-- Terminal workflows
-- Primary development environment
-- Short-lived Docker containers
-- Experimentation with new repos/tools
-- Occasional local LLM usage
-- Control plane for managing the Linux box
-
-
-
-### Rationale
-
-- Strong performance-per-dollar
-- Very responsive for interactive work
-- Quiet and power-efficient
-- Avoids Linux desktop friction
-- 24GB RAM is the minimum viable choice for Docker + IDE + browser
+**Role:** Security isolation
 
 ---
 
+## 2. Driver Machine
 
+**Model:** macOS laptop
 
-## 2. Linux Mini PC — Always-On Infra / Compute Plane
+**Specs**
+- TBD / existing Mac laptop
 
+**Main Responsibilities**
+- Primary daily workstation
+- Interactive development
+- Web browsing and communications
+- SSH/control point for the Build Server and Linux Server
+- AI coding assistants and other interactive tools
 
-
-### Recommended Spec
-
-- **Model:** Fanless Intel N100 mini PC
-- **CPU:** Intel N100
-- **Memory:** 32GB RAM
-- **Storage:** 512GB SSD
-- **Cooling:** Fanless
-- **Role:** Always-on local infrastructure box
-
-
-
-### Primary Responsibilities
-
-- Long-lived Docker containers
-- Postgres
-- Redis
-- APIs / backend services
-- Background workers
-- Agents
-- Schedulers / cron jobs
-- WireGuard VPN
-- Persistent services
-- Occasional vector DB workloads
-
-
-
-### Rationale
-
-- Dedicated always-on compute
-- No resource contention with daily dev work
-- Low power usage
-- Silent operation
-- Cheap compared with a single large workstation
-- 32GB RAM is the practical minimum for reliable multi-container infra
-
-
-
-## Specific product
-
-HISTTON H3 Industrial (N100). Model name: **H3D-N100-2L**
-
-#### buying options
-
-[amazon]([https://www.amazon.com/MeLE-Computers-Full-Functional-Education-Astrophotography/dp/B0DPM3GX7B?th=1](https://www.amazon.com/MeLE-Computers-Full-Functional-Education-Astrophotography/dp/B0DPM3GX7B?th=1))
-
-HISTTON is hard to find. This might be close enough:
-[MeLE](https://www.amazon.com/MeLE-Computers-Full-Functional-Education-Astrophotography/dp/B0DPM3GX7B?th=1)
-
+**Role:** Human interface / command center
 
 ---
 
+## 3. Build Server
 
+**Model:** Mac mini M4
 
-# Agent specific context below
+**Specs**
+- Apple M4
+- 24 GB unified memory
+- 256 GB SSD
 
+**Main Responsibilities**
+- Dedicated development environment
+- macOS builds and testing
+- Long-running builds or development tasks that shouldn't consume Driver Machine resources
+- Remote development target from the Driver Machine
 
+**Role:** Dedicated macOS development compute
 
-## Rejected Option
+---
 
+## 4. Linux Always-On Server
 
+**Model:** MINISFORUM UM870 Slim  
+**Micro Center SKU:** 799197
 
-### Single Large Machine, e.g. Meerkat 64GB at ~$2,200
+**Specs**
+- AMD Ryzen 7 8745H
+- 32 GB DDR5-5600 RAM
+- 1 TB SSD
+- Radeon 780M integrated GPU
 
-Rejected because it:
+**Main Responsibilities**
+- 24/7 Docker/container workloads
+- Always-on AI agents
+- OpenClaw Gateway / agent infrastructure
+- Realtime conversational voice stack
+- Faster-Whisper / local STT
+- Local TTS where appropriate
+- Local AI/model workloads
+- General self-hosted services
+- Potential Nostr relay
 
-- Over-consolidates dev and infra workloads
-- Creates resource contention
-- Costs significantly more
-- Reduces separation of concerns
-- Limits parallelism
-- Makes the system less flexible over time
+**Role:** Always-on infrastructure + AI compute
 
+#### where to buy
+
+We chose the **MINISFORUM UM870 Slim** from the Chicago 
+
+Micro Center
+[Web](https://www.microcenter.com/site/stores/chicago.aspx?storeid=151&utm_source=chatgpt.com)
+Address: 2645 N Elston Ave, Chicago, IL 60647, United States
+Phone: +17732921700
+
+**2645 N Elston Ave, Chicago, IL 60647**
+
+**Machine:** MINISFORUM UM870 Slim
+**SKU:** 799197
+**Ryzen 7 8745H / 32GB RAM / 1TB SSD / Radeon 780M**
+**Current listed price:** $699.99
+
+[Buy / reserve the UM870 Slim at Micro Center](https://www.microcenter.com/product/689898/minisforum-um870-slim-mini-pc-amd-ryzen-7-8745h-38ghz-processor-32gb-ddr5-5600-ram-1tb-solid-state-drive-amd-radeon-780m-microsoft-windows-11-pro?bvstate=pg%3A3%2Fct%3Ar&showfullsite=true&storeid=151&utm_source=chatgpt.com)
+
+Micro Center's current search results show **2 in stock at the Chicago store**, although inventory can change quickly. ([Micro Center][1])
+
+[1]: https://www.microcenter.com/search/search_results.aspx?fq=category%3ADesktop+Computers%7C106%2Cbrand%3AMinisforum+OR+GMKtec&vkw=pc&utm_source=chatgpt.com "Desktop Computers : Minisforum : GMKtec : Micro Center"
 
 
 # voice
