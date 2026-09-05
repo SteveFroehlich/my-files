@@ -17,7 +17,7 @@ I realized saying I don’t have time for ‘X’ is a way of fooling myself. I 
 
 We all have about 16 waking hours in a day. That rarely changes. What changes is our priority.
 
-So when I said, I don’t have time to workout, what I  was actually doing is not prioritizing working out in my 16 hour block. 
+So when I said, I don’t have time to call that friend, what I was actually doing is not prioritizing that relationship in my 16 hour block. 
 
 So now when I catch myself saying I don’t have time for X, I force myself instead to say: I’m not prioritizing X.
 

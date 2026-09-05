@@ -47,12 +47,6 @@ Evidence strength: Moderate to low
 - Related to cognitive load theory and workload research.
 - Well supported conceptually, but harder to isolate and measure as a single causal factor.
 
-6. High-cost open loops
-
-Evidence strength: Low to moderate
-
-- Supported indirectly through research on unfinished goals, prospective memory, rumination, and the Zeigarnik effect.
-- Much weaker evidence than sleep or stress
 
 ## Mediation 
 

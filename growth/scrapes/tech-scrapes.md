@@ -1,19 +1,5 @@
 # Tech scrapes
 
-Talks to be sorted:
-
-**2026-06-14**
-
-- [https://paulgraham.com/earn.html](https://paulgraham.com/earn.html)
-- [https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1](https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1)
-
-Other:
-
-- E/acc movement - guillaume verdon
-- D/acc movement - vitalik
-- [https://negroniventurestudios.com/2026/03/19/the-ladder-is-missing-rungs/](https://negroniventurestudios.com/2026/03/19/the-ladder-is-missing-rungs/)
-- 
-- [https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/](https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/)
 
 ---
 
@@ -202,6 +188,13 @@ Open source organizational search
 [https://github.com/getomnico/omni](https://github.com/getomnico/omni)
 
 ---
+
+## world models
+
+How they work, what to use them for 
+
+---
+
 ## AI infrastructure 
 
 Open source model hosting platforms 
@@ -598,3 +591,10 @@ HTTP QUERY
 
 New change to DNS
 https://specification.website/spec/foundations/for-sale-dns/
+
+---
+## movements 
+- E/acc movement - guillaume verdon
+- D/acc movement - vitalik
+
+---
